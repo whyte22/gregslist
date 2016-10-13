@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	padding-top: -10px;
+	display: inline-block;
+}
+
+header {
+	position: relative;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background-color: lightgrey;
+}
+
+header ul {
+	position: absolute;
+	right: 25px;
+	top: 0px;
+}
+
+.logo {
+	position: absolute;
+	left: 25px;
+	top: 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: purple;
+	text-align: center;
+	padding: 16px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.glass {
+	height: 39px;
+	width: 28px;
+}
+
+input[type=text] {
+	width: 500px;
+	height: 40px;
+}
+
+input {
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+button {
+	width: 40px;
+	height: 48px;
+	background-color: white;
+}
+
+.listings {
+	padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
